@@ -1,0 +1,36 @@
+#header-cont {
+    /* background-color: #8a2b06;
+    color: white;
+    height: 50px;
+    text-align: left; */
+
+    align-items: center;
+    background-color: #8a2b06;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    font-size: x-large;
+}
+
+#header-image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+}
+
+#header-image img {
+    height: 100%;
+    object-fit: cover;
+    -webkit-transform: rotate(-5deg) translateY(-4rem) translateX(-1rem);
+    transform: rotate(-5deg) translateY(-4rem) translateX(-1rem);
+    width: 110%;
+}

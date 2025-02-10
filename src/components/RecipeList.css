@@ -1,0 +1,124 @@
+#card {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin: 50px 250px;
+}
+
+#heading-card {
+    background-color: #c2410f;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    margin: 20px 40px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.list-item {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Omit border for the last item */
+#biryani-list-item:last-child, 
+#riceitems-list-item:last-child,
+#curries-list-item:last-child,
+#sweets-list-item:last-child,
+#milkshakes-list-item:last-child,
+#snacks-list-item:last-child {
+    border-bottom: none;
+}
+
+#recipe-name-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-item #recipe-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item #recipe-name img {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.list-item #recipe-name h3 {
+    margin: 0 0 0.25rem;
+    align-content: center;
+    padding-top: 4px;
+}
+
+#recipe-view-btn {
+    background-color: #4169e1;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+#recipe-view-btn:active,
+#recipe-view-btn:hover {
+    background-color: #fff;
+    border-color: #4169e1;
+    color: #4169e1;
+}
+
+
+#details-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+#details-cont div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 5px 0px;
+}
+
+#details-cont div h5 p {
+    display: inline-block;
+    font-weight: 400;
+    margin: 5px;
+}
+
+#details-cont div h5 {
+    display: inline;
+    margin: 0px;
+}
+
+#details-cont ul {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+#details-cont ul li {
+    font-weight: 400;
+    font-size: 0.83em;
+}
